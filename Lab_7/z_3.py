@@ -1,3 +1,6 @@
+"""
+Створити програму, для знаходження детермінанта квадратної матриці A(2 x 2)
+"""
 import random
 a = [[random.randint(0, 10) for j in range(2)]for i in range(2)]
 diagonal_1 = 1

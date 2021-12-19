@@ -1,3 +1,6 @@
+"""
+Розмістити елементи парних рядків у порядку зростання.
+"""
 import random
 n = int(input("n = "))
 a = [[random.randint(0, 10) for j in range(n)]for i in range(n)]
